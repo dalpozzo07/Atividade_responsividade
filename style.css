@@ -6,6 +6,19 @@
     gap: 2rem;
 }
 
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.menu-icon span {
+    width: 25px;
+    height: 3px;
+    background: #000;
+    display: block;
+}
 
 @media (max-width: 1200px) {
 
@@ -21,4 +34,11 @@
 
 @media (max-width: 600px) {
 
+}
+
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
